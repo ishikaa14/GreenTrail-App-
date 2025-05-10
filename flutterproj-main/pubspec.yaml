@@ -1,0 +1,68 @@
+name: green_trail_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0
+  provider: ^6.1.4
+  fluttertoast: ^8.2.1
+  image_picker: ^1.0.7
+  flutter_dotenv: ^5.1.0
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  fl_chart: ^0.70.2
+  camera: ^0.10.5+9
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  flutter_svg: ^2.0.7
+  animations: ^2.0.7
+  flutter_tts: ^3.8.5
+  tflite_flutter: ^0.11.0
+  image: ^4.1.3
+  dio: ^5.8.0+1
+  flutter_launcher_icons: ^0.14.3
+  qr_flutter: ^4.1.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/home.jpg
+    - assets/config/.env
+    - assets/models/model_unquant.tflite
+    - assets/models/labels.txt
+    - assets/images/plastic-bottle.png
+    - assets/images/banana-peel.png
+    - assets/images/glass-bottle.png
+    - assets/images/tin-can.png
+    - assets/images/newspaper.png
+    - assets/images/food-waste.png
+    - assets/images/plastic-bag.png
+    - assets/images/styrofoam-cup.png
+    - assets/sounds/collect.mp3
+    - assets/sounds/hit.mp3
+    - assets/sounds/background.mp3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logoapp.png"
